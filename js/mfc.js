@@ -38,7 +38,7 @@ var mfc = {
 
 
   onError: function mfc_onError() {
-    document.getElementById('top').innerHTML = 'Hmm. Something went wrong. Try again?';
+    document.getElementById('witticism').innerHTML = 'Hmm. Something went wrong. Try again?';
     this.acquireBugmail();
   },
 
@@ -49,7 +49,7 @@ var mfc = {
     if (!components || components.length == 0) {
       var html = 'Either you mistyped your email, or you haven\'t fixed anything yet.';
       html += ' (<a href="http://www.mozilla.org/contribute">Get Involved!</a>)';
-      document.getElementById('top').innerHTML = html;
+      document.getElementById('witticism').innerHTML = html;
       this.acquireBugmail();
       return;
     }
@@ -77,7 +77,7 @@ var mfc = {
 
   loadBugs: function mfc_loadBugs(bugmail) {
     if (bugmail == 'nobody@mozilla.org') {
-      document.getElementById('top').innerHTML = 'We\'re not interested in nobody - we\'re interested in you!'; 
+      document.getElementById('witticism').innerHTML = 'We\'re not interested in nobody - we\'re interested in you!'; 
       return;
     }
 
