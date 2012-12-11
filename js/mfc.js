@@ -59,7 +59,7 @@ var mfc = {
     if (top in wit)
       witticism = wit[top];
     document.getElementById('witticism').innerHTML = witticism;
-    document.getElementById('top').innerHTML = 'You\'re favourite component is ' + top;
+    document.getElementById('top').innerHTML = 'Your favourite component is ' + top;
 
     var rows = [];
     components.forEach(function compMap(component, index) {
