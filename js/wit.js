@@ -872,7 +872,7 @@ var wit = {
   "Core:Geolocation": "Where am I?",
   "Core:XPConnect": "You like the glue of the Mozilla universe. Also: sticky code.",
   "Core:Rewriting and Analysis": "Slaying bugs with the many hydrae.",
-  "Core:Editor": "So you've got designs on contenteditable?",
+  "Core:Editor": "Hmmm, perhaps you should seek help?",
   "Core:DOM: Device Interfaces": "Enabling bluetooth...",
   "Core:Image Blocking": "",
   "Core:Build Config": "Making make do your bidding",
